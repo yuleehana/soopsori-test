@@ -1,0 +1,44 @@
+/* sellection 자식들을 옆으로 붙이기 */
+.sellection{
+    display: flex;
+    justify-content: space-between;
+}
+.sellection>div img{
+    width: 100%;
+}
+
+/* sel-right 자식을 좌우, 위아래 가운데로 보내기 */
+.sel-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-left: 95px;
+}
+.sel-right .text-box{
+    text-align: center;
+}
+
+/* 글자크기 32 */
+.sel-right .text-box strong{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/* 기본 18 */
+.sel-right .text-box p{
+    font-size: 1.13rem;
+    margin: 20px 0;
+}
+
+/* 26 */
+.sel-right .text-box .more{
+    background: var(--default);
+    color: #fff;
+    display: inline-block;
+    padding: 11px 30px;
+    border: 1px solid black;
+    border-radius: 30px;
+
+}

@@ -1,0 +1,50 @@
+
+.sellection-list .sellection{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center;
+    gap: 20px; */
+}
+.sel-left{
+
+}
+.sellection .sel-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-left: 95px;
+}
+.sellection .sel-right>.img-box{
+    width: 100%;
+}
+
+
+.sellection .sel-right .text-box{
+    text-align: center;
+    margin-top: 75px;
+    /* margin-bottom: 30px; */
+    line-height: 1.2;
+}
+.sellection .sel-right .text-box>strong{
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.sellection .sel-right .text-box>p{
+    display: block;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.sellection .sel-right .text-box>.more{
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+    padding: 11px 20px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background: black;
+}

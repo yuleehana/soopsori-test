@@ -1,0 +1,44 @@
+/* 공통사항 */
+/* 모든 여백 제거 */
+/* 테두리와 여백이 width, height 안에 포함된 크기가 되도록
+ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* li앞 장식 제거 */
+li{
+    list-style: none;
+}
+
+/* a의 밑줄 제거, 글자색 변경 */
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* img, video 위아래 정렬 */
+img,video{
+    vertical-align: middle;
+}
+
+/* em, i, address 글자 기울기 조정 */
+em,i,address{
+    font-style: normal;
+    /* 반대로 기울기를 다시 주려면 font-style: italic; */
+}
+
+/* blind */
+.blind{
+    position: absolute;
+    top: -99999px;
+}
+
+/* body */
+body{
+    font-family: Pretendard,"돋움",sans-serif;
+    /* font-size: 16px; */
+    color: #111;
+}
